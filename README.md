@@ -1,4 +1,4 @@
-# 🖤 BlackRock Website Clone
+#  BlackRock Website Clone
 
 A fully responsive clone of the official [BlackRock](https://www.blackrock.com/) corporate website, built using **Next.js** and **Bootstrap 5**. This project was created as part of my front-end development portfolio to practice modern frameworks and responsive UI design.
 
