@@ -21,4 +21,3 @@ Reusable UI components
 
 Fast development with Next.js
 
-Ready for deployment on Vercel
