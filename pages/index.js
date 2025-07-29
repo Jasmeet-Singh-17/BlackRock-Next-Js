@@ -80,7 +80,7 @@ class Index extends PureComponent {
                       <li>
                         <form className="d-flex" role="search">
                           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                          <button className="btn btn-outline-dark" type="submit">Go</button>
+                          <button className="btn btn-outline-dark" type="submit"> Search </button>
                         </form>
                       </li>
                     </ul>
@@ -118,12 +118,14 @@ class Index extends PureComponent {
                 <h1 className="info-heading">BlackRock completes acquisition of HPS Investment Partners</h1>
                 <p className="info-paragraph">Together with HPS, we’re positioned to meet accelerating client demands
                   with integrated, best-in-class public and private solutions.</p>
-                <a href="#" className="info-link">&gt; Read the press release</a>
-                <hr className="mt-5" />
+                <p> ›  <a href="#" className="info-link"> Read the press release</a></p>
+
+                <hr className="mt-5.5" />
               </div>
               <div className="col-md-4 right-info">
-                <h1 className="info-heading">Stay current with the latest news and announcements from BlackRock.</h1>
-                <a href="#" className="info-link">&gt; Read and subscribe to BlackRock News</a>
+                <h1 className="right-info-heading">Stay current with the latest news and announcements from BlackRock.</h1>
+                <p> › <a href="#" className="info-link">  Read and subscribe to BlackRock News</a> </p>
+
               </div>
             </div>
           </div>
@@ -133,34 +135,71 @@ class Index extends PureComponent {
           <div className="container">
             <div className="row gy-4">
               <div className="col-md-6">
-                <div className="p-4 shadow-sm border border-dark rounded bg-white h-100">
-                  <p className="text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1 small">
-                    Investment Stewardship</p>
-                  <h4 className="fw-bold mt-3">Explore our 2024 annual report on Investment Stewardship</h4>
-                  <p className="mt-3 text-muted">Investment stewardship is core to our role as an asset manager and
-                    fiduciary to our clients...</p>
-                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-3">
-                    <span className="bg-dark text-white px-3 py-2 me-2">› Read our Investment Stewardship
-                      report</span>
+                <div className="info-box h-100">
+                  <div className="info-box-content">
+                    <p className="text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1 small">
+                      Investment Stewardship
+                    </p>
+                    <h4 className="fw-bold mt-3">Explore our 2024 annual report on Investment Stewardship</h4>
+                    <p className="mt-3 text-muted">
+                      Investment stewardship is core to our role as an asset manager and fiduciary to our clients...
+                    </p>
+                  </div>
+                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-auto pt-3">
+                    <span className="bg-dark text-white px-3 py-2 me-2">› Read our Investment Stewardship report</span>
                   </a>
                 </div>
               </div>
+
               <div className="col-md-6">
-                <div className="p-4 shadow-sm border border-dark rounded bg-white h-100">
-                  <p className="text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1 small">
-                    BlackRock Bulletin</p>
-                  <h4 className="fw-bold mt-3">Our latest views on market volatility</h4>
-                  <p className="mt-3 text-muted">BlackRock investment experts share insights on the fast-moving
-                    developments of U.S. trade protectionism...</p>
-                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-3">
-                    <span className="bg-dark text-white px-3 py-2 me-2">› Read the market volatility
-                      bulletin</span>
+                <div className="info-box h-100">
+                  <div className="info-box-content">
+                    <p className="text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1 small">
+                      BlackRock Bulletin
+                    </p>
+                    <h4 className="fw-bold mt-3">Our latest views on market volatility</h4>
+                    <p className="mt-3 text-muted">
+                      BlackRock investment experts share insights on the fast-moving developments of U.S. trade protectionism...
+                    </p>
+                  </div>
+                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-auto pt-3">
+                    <span className="bg-dark text-white px-3 py-2 me-2">› Read the market volatility bulletin</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+
+        <section className="larry-section py-5">
+          <div className="container larry-container">
+            <div className="row align-items-center g-4">
+              <div className="col-md-6">
+                <img src="img/larry-fink-mcta.webp" alt="larry photo" className='larry-photo' />
+              </div>
+
+              <div className="col-md-6">
+                <div className="p-2">
+                  <h2 className="larry-heading fw-bold mb-4">
+                    Larry Fink on economic growth <br /> and prosperity
+                  </h2>
+                  <p className="larry-paragraph text-muted">
+                    In his 2025 Chairman’s Letter to Investors, Larry Fink shares how
+                    our thinking on retirement can be reshaped and how expanding access
+                    to capital markets can help build a more prosperous future for more
+                    people.
+                  </p>
+                  <a href="#" className="larry-btn fw-bold d-inline-flex align-items-center mt-4">
+                    <span className="me-2">›</span> Read Larry Fink’s letter
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
 
         <section className="learn-more-section text-center text-black py-4">
           <div className="container">
