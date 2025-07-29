@@ -97,11 +97,12 @@ class Index extends PureComponent {
             <div className="row g-0">
               <div className="col-md-6 left-col">
                 <p className="sub-heading">BlackRock Investment Institute</p>
-                <h1 className="outlook-heading">2025 Midyear <br></br>Global Outlook:<br></br> Getting a grip on <br></br> uncertainty</h1>
+                <h1 className="outlook-heading">2025 Midyear <br></br>Global Outlook:<br></br> Getting a grip on <br></br> uncertainty
+                </h1>
                 <p className="lead mt-3">U.S. policy shifts and elevated uncertainty mark the evolution of the new macro
                   regime.</p>
                 <div className="mt-4">
-                  <a href="#" className="btn btn-light outlook-btn">&gt; Read the Midyear Global Outlook</a>
+                  <a href="#" className="btn btn-light outlook-btn hover-underline-animation right">&gt; Read the Midyear Global Outlook</a>
                 </div>
               </div>
               <div className="col-md-6 right-col">
@@ -118,7 +119,7 @@ class Index extends PureComponent {
                 <h1 className="info-heading">BlackRock completes acquisition of HPS Investment Partners</h1>
                 <p className="info-paragraph">Together with HPS, we’re positioned to meet accelerating client demands
                   with integrated, best-in-class public and private solutions.</p>
-                <p> ›  <a href="#" className="info-link"> Read the press release</a></p>
+                <p> ›  <a href="#" className="info-link "> Read the press release</a></p>
 
                 <hr className="mt-5.5" />
               </div>
@@ -140,13 +141,16 @@ class Index extends PureComponent {
                     <p className="text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1 small">
                       Investment Stewardship
                     </p>
-                    <h4 className="fw-bold mt-3">Explore our 2024 annual report on Investment Stewardship</h4>
+                    <h4 className="fw-bold mt-3">
+                      Explore our 2024 annual report on Investment Stewardship
+                    </h4>
                     <p className="mt-3 text-muted">
-                      Investment stewardship is core to our role as an asset manager and fiduciary to our clients...
+                      Investment stewardship is core to our role as an asset manager and fiduciary to our clients. Read our latest annual report to learn more about BlackRock’s stewardship activities on behalf of our clients last year.
                     </p>
                   </div>
-                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-auto pt-3">
-                    <span className="bg-dark text-white px-3 py-2 me-2">› Read our Investment Stewardship report</span>
+                  <a href="#" className="arrow-link ">
+                    <span className="arrow-box"> &rsaquo;</span>
+                    <span className="link-text hover-underline-animation left">Read our Investment Stewardship report</span>
                   </a>
                 </div>
               </div>
@@ -159,17 +163,19 @@ class Index extends PureComponent {
                     </p>
                     <h4 className="fw-bold mt-3">Our latest views on market volatility</h4>
                     <p className="mt-3 text-muted">
-                      BlackRock investment experts share insights on the fast-moving developments of U.S. trade protectionism...
+                      BlackRock investment experts share insights on the fast-moving developments of U.S. trade protectionism, the global response, and what it means for the world’s financial markets.
                     </p>
                   </div>
-                  <a href="#" className="d-inline-flex align-items-center fw-bold text-decoration-none mt-auto pt-3">
-                    <span className="bg-dark text-white px-3 py-2 me-2">› Read the market volatility bulletin</span>
+                  <a href="#" className="arrow-link">
+                    <span className="arrow-box"> &rsaquo;</span>
+                    <span className="link-text hover-underline-animation left">Read the market volatility bulletin</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
 
 
         <section className="larry-section py-5">
@@ -190,8 +196,9 @@ class Index extends PureComponent {
                     to capital markets can help build a more prosperous future for more
                     people.
                   </p>
-                  <a href="#" className="larry-btn fw-bold d-inline-flex align-items-center mt-4">
-                    <span className="me-2">›</span> Read Larry Fink’s letter
+                  <a href="#" className="larry-btn fw-bold d-inline-flex align-items-center mt-4 hover-underline-animation right">
+                    <span className="icon me-2 "> &rsaquo; </span>
+                    <span > Read Larry Fink’s letter </span>
                   </a>
                 </div>
               </div>
