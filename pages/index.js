@@ -25,7 +25,7 @@ class Index extends PureComponent {
             </div>
           </div>
           <nav className="navbar navbar-expand-lg navbar-custom">
-            <div className="container align-items-baseline">
+            <div className="container d-flex align-items-end">
               <a className="navbar-brand" href="#"><img src="img/logo.svg" alt="logo" /></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span className="navbar-toggler-icon" />
