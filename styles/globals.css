@@ -155,12 +155,11 @@
   background-color: #000;
   color: white;
   padding: 32px 24px;
-  height: 100%;
 
 }
 
-.info-section .right-ingo-heading {
-  font-size: 10px;
+.info-section .right-info-heading {
+  font-size: 2.3rem;
 }
 
 .info-section .right-info .info-link {

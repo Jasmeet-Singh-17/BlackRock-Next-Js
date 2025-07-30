@@ -1,7 +1,13 @@
-/* Large Devices (991px–1199px) */
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
     .outlook-section .left-col {
         padding: 2rem;
+    }
+
+    .outlook-section .outlook-heading {
+        font-size: clamp(2.5rem, 5vw, 3.8rem);
+        font-weight: 700;
+        line-height: 1.1;
+        color: white !important;
     }
 
     .larry-heading {
@@ -13,49 +19,34 @@
     }
 }
 
-/* Tablets (768px–990px) */
-@media only screen and (min-width: 768px) and (max-width: 990px) {
-    .outlook-section .left-col {
-        padding: 2rem;
-        text-align: center;
-    }
+@media only screen and (min-width: 769px) and (max-width: 991px) {
 
     .outlook-section .outlook-heading {
-        font-size: 2rem;
+        font-size: clamp(2.5rem, 5vw, 3.8rem);
+        font-weight: 700;
+        line-height: 1.1;
+        color: white !important;
     }
 
-    .larry-section .row {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .info-section {
+        height: 32rem;
     }
 
-    .larry-photo {
+    .right-info {
+        width: 33%;
+        height: 30rem;
+    }
+
+    .larry-section .larry-photo {
         max-width: 100%;
-        margin: auto;
     }
 
     .larry-paragraph {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .info-section .left-info,
-    .info-section .right-info {
-        padding: 1.5rem;
-    }
-
-    .info-section .info-heading {
-        font-size: 2rem;
-    }
-
-    .footer-section .col-md {
-        margin-bottom: 1.5rem;
+        font-size: .9rem;
     }
 }
 
-/* Mobile (480px–767px) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     .navbar-brand img {
         max-height: 22px;
     }
@@ -64,45 +55,14 @@
         font-size: 0.85rem;
     }
 
-    .outlook-section .left-col {
-        padding: 1.5rem;
-        text-align: center;
-    }
-
     .outlook-section .outlook-heading {
-        font-size: 1.8rem;
+        /* font-size: clamp(2.5rem, 5vw, 3.8rem); */
+        font-weight: 700;
+        line-height: 1.1;
+        color: white !important;
+        font-size: 3rem;
     }
 
-    .larry-heading {
-        font-size: 1.8rem;
-    }
-
-    .larry-paragraph {
-        font-size: 1rem;
-    }
-
-    .larry-section .row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .info-box {
-        padding: 1rem;
-    }
-
-    .learn-link {
-        font-size: 15px;
-    }
-
-    .footer-section .row {
-        text-align: center;
-    }
-
-    .footer-section .col-md {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 2rem;
-    }
 }
 
 /* Extra Small Devices (max-width: 479px) */
